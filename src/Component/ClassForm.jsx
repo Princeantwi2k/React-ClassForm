@@ -67,7 +67,7 @@ this.setState({
               placeholder={this.props.email}
             /><br />
            Gender <br />
-           <select >
+           <select  className="form_input">
                <option value={this.state.male} onChange={this.handleChange} name="male">male</option>
                <option value={this.state.female} onChange={this.handleChange} name="female">female</option>
               
